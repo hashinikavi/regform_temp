@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <title>Member Registration Form</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+   </head>
+   <body>
+     <style type="text/css">
+      .flabel{
+        font-size: 20px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        text-align: center;
+      }
+      .regform{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: #0dbbde;
+        width: 70%;
+      }
+
+      .finput{
+        background-color: #f0fafa;
+        border: 0;
+        border-radius: 10px;
+        height: 25px;
+        width: 300px;
+      }
+
+      .btn1{
+        background-color: #4905a3;
+        border:0 ;
+        box-shadow: 1px 2px #32214a;
+        width: 120px;
+        height: 30px;
+        border-radius: 10px;
+        color: white;
+      }
+      .bttn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+     </style>
+      <div class="regform">
+      <div>
+        <h1><b>Register</b></h1>
+      <form>
+        <label for="fname" class="flabel">First Name :</label><br>
+        <input type="text" name="fname" class="finput"><br><br>
+        <label for="lname" class="flabel">Last Name :</label><br>
+        <input type="text" name="lname" class="finput"><br><br>
+        <label for="nic" class="flabel">NIC Number :</label><br>
+        <input type="text" name="nic" class="finput"><br><br>
+        <label for="city" class="flabel">City :</label><br>
+        <input type="text" name="city" class="finput"><br><br>
+        <label for="email" class="flabel">Email :</label><br>
+        <input type="email" name="email" class="finput"/><br><br>
+        <label for="password" class="flabel">Password :</label><br>
+        <input type="password" name="password" class="finput"><br><br>
+       <div class="bttn"><input type ="submit"class="btn1" ></div> 
+      </form></div></div>
+   </body>
+
+</html>
